@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form id="survey" action="" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p><label for="name">Name:</label><input type="text" name="name" id="name" required></p>
+            <p><label for="email">Email:</label><input type="email" name="email" id="email" required></p>
+            <p><label for="number">Number:</label><input type="number" name="number" id="number" required></p>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <p><label for="year">Which year are you?*</label></p>
+            <select name="year" id="year" required>
+            <option value="">Select Year</option>
+            <option value="First Year">First Year</option>
+            <option value="Second Year">Second Year</option>
+            <option value="Third Year">Third Year</option>
+            <option value="Final Year">Fourth Year</option>
+        </select>
+        <p><label for="electronicdevices">Which electronic devices do you use?</label></p>
+            <p><input type="checkbox" name="Computer" id="Computer">Computer</p>
+            <p><input type="checkbox" name="Ebook" id="Ebook">Ebook Reader</p>
+            <p><input type="checkbox" name="Phone" id="Phone">Smartphone</p>
+        <p><label for="hours">How many hours do you spend on these devices?</label></p>
+            <p><input type="radio" name="1" id="1">1 hours</p>
+            <p><input type="radio" name="2" id="2">2 hours</p>
+            <p><input type="radio" name="3" id="3">3 Hours +</p>
+        </fieldset>
+            <p><label for="comments">Any other comments</label></p>
+             <textarea name="comments" id="comments" cols="40" rows="10">
+            </textarea>
+            <p><input type="submit" value="Submit"></p> 
+      
+        
+        </form>   
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    display: inline-block;
+    height: auto;
+    width: 10%;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 3%;
+    margin: 5px;
+}
+
+.mainbox {
+    border: 1px solid pink;
+    padding: 10%;
+    margin: 10px;
+    width: 50%;
+    float: left;
+}
+
+.boxes {
+    border: 1px solid pink;
+    padding: 3%;
+    margin: 5px;
+    width: 20%;
+    float: left;
+    box-shadow: 10px;
+}

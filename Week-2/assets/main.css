@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+#content {
+    padding: 10%
+}
+
+nav {
+    background-color: pink;
+}
+
+nav ul {
+    width: 115px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+}
+
+section {
+    border: 1px solid pink;
+    padding: 3%;
+    width: 26%;
+    float: left;
+}
